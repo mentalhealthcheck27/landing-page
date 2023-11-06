@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+}
+
+div.one {
+    background-color: #1F2937;
+    padding: 10px 150px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li {
+    margin-left: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.onea {
+    display: flex;
+    padding: 50px 0;
+    gap: 10px;
+}
+
+.main-text,
+.placeholder {
+    flex: 1;
+}
+
+.placeholder {
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+.main-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 10px;
+    color: #F9FAF8;
+    flex: none;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.two {
+    padding: 10px 150px 50px;
+}
+
+.two .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    text-align: center;
+    flex: 0 0 150px;
+}
+
+.pic {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pic p {
+    text-align: center;
+    margin-top: 10px;
+    flex-basis: 0 0 200px;
+}
+
+.three {
+    padding: 50px 150px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 200;
+}
+
+.person {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.four {
+    padding: 50px 150px;
+}
+
+.four .container {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta {
+    color: #F9FAF8;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
